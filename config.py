@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "21418386"))
 API_HASH = environ.get("API_HASH", "aeac46b1d123e82fe6dcb43b6a26cfae")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/81bc539522e8c28796ff6.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/7a36b88ba7e2f54dbcab1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6295561053').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Aero_File_Store_Bot") # without @
 PORT = environ.get("PORT", "8080")
